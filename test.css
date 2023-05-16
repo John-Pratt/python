@@ -1,0 +1,24 @@
+
+    .paragraph {
+        background-color: red;
+    }
+    p {
+        background-color:;
+    }
+
+    li {
+        background-color: yellow;
+    }
+
+    .links {
+        background-color: purple;
+    }
+    .one {
+        background-color: green;
+    }
+    .two {
+        background-color: blue;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #ff0000, #c20023, #820327, #999999, #ffffff);
+    }

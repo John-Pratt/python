@@ -226,16 +226,18 @@
 #Tuple = collection which is ordered and unchangeable
 #        used to group together related data
 
-student = ("bro", 21, "male")
-print(student.count("Bro"))
-print(student.index("male"))
+student = ("Ollie", 8, "male")
+# print(student.count("Bro"))
+# print(student.index("male"))
 
 for x in student:
     print(x)
 
-if "Bro" in student:
-    print("Bro is here!")
+if "Ollie" in student:
+    print("Ollie is here!")
 
+print(student.count("Bro"))
+student.index("male")
 
 
 
